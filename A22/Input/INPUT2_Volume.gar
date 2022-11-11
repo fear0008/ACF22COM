@@ -1,0 +1,10 @@
+# GARTER Example 3: Incorrect volume of a sphere, only using integers #
+
+def main(): 
+	PI = 3
+	print("Enter an integer")
+	r = int(input())
+	Vol = 4 / 3 * PI * r * r * r
+	print(Vol)
+	
+main()
