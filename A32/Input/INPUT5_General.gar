@@ -1,0 +1,16 @@
+# Online Python - IDE, Editor, Compiler, Interpreter
+
+def sum(a, b):
+	value = a + b
+    return (value)
+
+a = 0
+b = 0
+print("Enter 1st number: ")
+input(a)
+print("Enter 2nd number: ")
+input(b)
+
+newValue = sum(a,  b)
+
+print("Sum of ", a, " and ", b, " is ", newValue)

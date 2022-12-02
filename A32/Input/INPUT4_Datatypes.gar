@@ -1,0 +1,12 @@
+# GARTER Example 5: if, else, logical and relational operators
+
+def test_func(number):
+    if number > 0:
+        print("Greater")
+    else:
+        print("Less")
+    # COMMENT
+    if number == 1 and number < 2:
+        print("Number is one")
+
+test_func(1)

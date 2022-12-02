@@ -1,0 +1,16 @@
+# GARTER Example 4: Testing numbers (ex: factorial) #
+
+def calculate_factorial():
+	num = 0
+	input(num)
+	
+	startNum = num
+	fac = 1
+ 
+	while num > 1:
+		fac = fac * num
+		num = num - 1
+ 
+	print("factorial of ", startNum, " is ", fac)
+
+calculate_factorial()
